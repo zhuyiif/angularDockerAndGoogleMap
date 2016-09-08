@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "app",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+
+  "filesGlob": [
+    "./src/*.ts",
+    "./src/*.tsx",
+    "typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "files": [
+    "./src/main.ts",
+    "./src/app.component.ts",
+    "./src/app.module.ts",
+    "./typings/index.d.ts",
+    "./src/rxjs-extensions.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}

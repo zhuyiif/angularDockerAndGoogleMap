@@ -1,0 +1,79 @@
+h2 { 
+    color: #444; 
+    font-weight: lighter; 
+}
+
+
+
+font.projectname { 
+  font-family: ProximaNova;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.1px;
+  color: #979999;
+  padding-left: 10px;
+  padding-top: 19px;
+  display:inline-block;
+}
+
+body { margin: 2em; }
+body, input[text], button { color: #888; font-family: Cambria, Georgia; }
+button { padding: 0.2em; font-size: 14px}
+* { font-family: Arial; }
+
+html,body {
+        height: 100%;  
+}
+
+#daqri-header {
+  height: 10%;
+}
+
+#map {
+    top:0px;
+    height: 90%;
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+.logo {
+  float: left;
+  width: 94.9px;
+  height: 15px;
+  margin-top: 22px;
+  margin-left: 20px;
+  
+}
+
+#infoi {
+  width: 35%;
+  height: 25%;
+  position: absolute;
+  bottom:5%;
+  left:1%;
+  z-index:1;
+  background-color: white;
+}
+
+label { 
+  font-family: ProximaNova;
+  font-weight: normal !important;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  color: #979999;
+}
+
+.number {
+  font-family: ProximaNova;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.8px;
+  color: #171796;
+  
+}
