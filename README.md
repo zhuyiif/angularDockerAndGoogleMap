@@ -1,5 +1,5 @@
 to run:
 
-cd docker-compose && docker-compose build && docker-compose up
+docker run -p 49162:8000 -d apollo
 
 
