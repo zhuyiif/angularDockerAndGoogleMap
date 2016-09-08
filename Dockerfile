@@ -7,6 +7,6 @@ WORKDIR /usr/src/app
 COPY dashboard /usr/src/app/
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD [ "npm", "start" ]
